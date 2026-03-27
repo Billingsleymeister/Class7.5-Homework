@@ -1,0 +1,15 @@
+{
+  "lab": "SEIR-I Lab 2 (Terraform)",
+  "target": "34.44.119.97",
+  "status": "FAIL",
+  "details": [
+  "PASS: / returns 200",
+  "PASS: /healthz == ok"
+],
+  "failures": [
+  "FAIL: /metadata invalid JSON",
+  "FAIL: metadata missing region",
+  "FAIL: metadata missing VPC",
+  "FAIL: metadata missing subnet"
+]
+}
