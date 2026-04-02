@@ -54,7 +54,7 @@ Class 7.5 2026 Homework Submissions Repo for THEO WAF
 
 
 ```bash
-git clone https://github.com/Melanated-Cyber-Kings/Class7-Homework.git
+git clone https://github.com/Melanated-Cyber-Kings/Class7.5-Homework.git
 ```
 
 ```bash
