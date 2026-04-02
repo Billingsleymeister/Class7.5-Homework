@@ -1,0 +1,157 @@
+############################################################
+# macOS SYSTEM FILES
+############################################################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.apdisk
+
+############################################################
+# EDITOR / IDE ARTIFACTS
+############################################################
+# VS Code
+.vscode/
+.history/
+
+# JetBrains (PyCharm, IntelliJ, GoLand, etc.)
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*.swm
+
+############################################################
+# GENERAL TEMP / BACKUP / NOISE FILES
+############################################################
+*.old
+*.bak
+*.tmp
+*.temp
+*.log
+*.cache
+*.retry
+*.orig
+*.save
+*.backup
+*.local
+*.lock
+*.pid
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node / npm / yarn
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+############################################################
+# CONTAINERS / DOCKER
+############################################################
+# Docker build artifacts
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+*.tar
+
+# Podman / container logs
+container-logs/
+*.container
+
+############################################################
+# KUBERNETES / K8S
+############################################################
+# Local kubeconfigs (never commit these)
+.kube/
+kubeconfig
+kubeconfig.yaml
+kubeconfig.yml
+
+# Helm
+charts/**/tmp/
+charts/**/charts/
+charts/**/Chart.lock
+charts/**/values.schema.json
+
+############################################################
+# TERRAFORM
+############################################################
+# State files (never commit these)
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+
+############################################################
+# GOOGLE CLOUD PLATFORM (GCP)
+############################################################
+# GCP credentials (NEVER commit)
+*.json
+*.p12
+*.key
+*.pem
+
+# gcloud CLI artifacts
+.config/gcloud/
+gcloud.log
+
+############################################################
+# SHELL SCRIPTS / EXECUTION ARTIFACTS
+############################################################
+*.out
+*.err
+*.trace
+*.profile
+*.env
+.env.*
+.envrc
+
+############################################################
+# LOGS / OUTPUT / REPORTS
+############################################################
+logs/
+*.log
+*.gz
+*.zip
+*.tar
+*.tgz
+
+############################################################
+# MISC PROJECT-SPECIFIC
+############################################################
+# Ignore screenshots or large binary artifacts
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Ignore local test files
+test-output/
+tmp/
+temp/
+scratch/

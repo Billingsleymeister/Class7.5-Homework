@@ -1,119 +1,117 @@
-# Class7.5-Homework
+📘 Class 7.5 – Homework Repository
 
-Class 7.5 2026 Homework Submissions Repo for THEO WAF 
+This repository contains all individual and group homework submissions for Class 7.5 in the TheoWAF program. It provides a structured, well‑documented record of weekly assignments, collaborative work, and technical deliverables completed throughout the course.
 
-<h1 align="center">AWS CLASS 7.5 HOMEWORK</h1>
+The goal of this repository is to maintain a clear, professional, and academically sound submission format that supports grading, review, and long‑term reference.
+🎯 Repository Purpose
 
+This project is intended to:
 
-**Group Leader #1:** 
-<br>
-<a href="https://github.com/BashiM1">Mahamed Bashir</a>
+    Organize all homework submissions in a consistent, instructor‑friendly structure
 
-<br>
+    Separate individual work from group‑based collaborative assignments
 
-**Group Leader #2:** 
-<br>
-<a href="https://github.com/Brimah-Khalil-Kamara">Brimah Khalil Kamara</a>
+    Demonstrate technical proficiency across cloud, DevOps, scripting, and security topics
 
-<br>
+    Provide a clean, version‑controlled record of progress throughout the course
 
+    Reinforce reproducibility, clarity, and professional documentation practices
 
+📂 Repository Layout
+Code
 
-**Group Members:**
+.
+├── README.md                # Top-level overview (this file)
+├── Individual-Homework/     # Weekly personal assignments
+│   ├── 01-week-01/
+│   ├── 02-week-02/
+│   ├── 03-week-03/
+│   └── README.md
+└── Group-Homework/          # Collaborative team assignments
+    └── README.md
 
-<br>
+Individual-Homework/
 
-**1:** <a href="https://github.com/waseeconsulting-git">Van Ngila</a> 
+Contains weekly assignments completed independently.
+Each subfolder includes a README.md describing the task, methodology, and results.
+Group-Homework/
 
-**2:** <a href="https://github.com/anthonyadeconsulting-source">Adedji Adeyemi</a> 
+Contains collaborative assignments completed with classmates.
+Each submission includes documentation of group roles, approach, and deliverables.
+📘 Submission Standards
 
-**3:** <a href="https://github.com/DBs-art">Daniel Bryce</a> 
+All submissions in this repository should:
 
-**4:** <a href="https://https://github.com/statuc30721">ST Tucker</a> 
+    Follow assignment instructions precisely
 
-**5:** <a href="https://github.com/thomas065">Thomas Bell</a> 
+    Include clear explanations, diagrams, or code samples where required
 
-**6:** <a href="https://github.com/theswordpt-git">Voloxar Karsze</a> 
+    Demonstrate accuracy, completeness, and reproducibility
 
-**7:** <a href="https://github.com/Lew228">Shawn Mosby</a> 
+    Use professional formatting and consistent Markdown structure
 
-**8:** <a href="https://github.com/Cameron-Cleveland">Cameron Cleveland</a> 
+    Avoid committing sensitive data, credentials, or system‑specific artifacts
 
-**9:** <a href="https://github.com/BennyCampCloud">Campanella Godfrey Jr</a>
+Where appropriate, submissions should also include:
 
-**10:** <a href="https://github.com/LarvariousM">Larvarious McDonald</a>
+    Assumptions made during the work
 
+    Validation steps
 
-<br>
+    Screenshots or logs (when allowed)
 
-<h2 align="center">📌 Instructions</h2>
+    Notes on challenges and resolutions
 
-<br>
+🛡️ Academic Integrity
 
-1. Pull or clone the Class7.5 Homework Repo on your gitbash terminal to your git on your local machine. You will only be allowed to pull once you have cloned the repo. 
+This repository contains only original work produced for Class 7.5.
+All submissions adhere to course policies regarding:
 
+    Collaboration
 
-```bash
-git clone https://github.com/Melanated-Cyber-Kings/Class7.5-Homework.git
-```
+    Originality
 
-```bash
-git pull origin "name of your branch goes here"
-```
+    Proper citation of external sources
 
+    Ethical use of tools and automation
 
-2. Navigate to the cloned repo location in your gitbash terminal and create folders Week 1, Week 2, and so on. These are the folders that will have your homework in
+No proprietary, confidential, or unauthorized materials are included.
+🧰 Technical Scope
 
-3. Create your branches and switch into it immediately. (I have created the names as I want you to create your branches)
+Assignments in this course may involve:
 
-```bash
-git checkout -b Van-Ngila-Homework-Branch-7.5
-```
-```bash
-git checkout -b Adedji-Adeyemi-Homework-Branch-7.5
-```
-```bash
-git checkout -b Daniel-Bryce-Homework-Branch-7.5
-```
-```bash
-git checkout -b ST-Tucker-Homework-Branch-7.5
-```
-```bash
-git checkout -b Thomas-Bell-Homework-Branch-7.5
-```
-```bash
-git checkout -b Voloxar-Karsze-Homework-Branch-7.5
-```
-```bash
-git checkout -b Shawn-Mosby-Homework-Branch-7.5
-```
-```bash
-git checkout -b Cameron-Cleveland-Homework-Branch-7.5
-```
-```bash
-git checkout -b Campanella-Godfrey-Jr-Homework-Branch-7.5
-```
-```bash
-git checkout -b Larvarious-McDonald-Homework-Branch-7.5
-```
+    Linux administration
 
-   
-5. Create Readme.md files in each folder you created above this will be the file that you will document your homework in and that will be presented to THEO, so make sure it's readable and that someone who wouldnt know how to do the homework/project can follow with little to no difficulty.
+    Cloud platforms (GCP, AWS, Azure)
 
-6. Once you have done this any homework you have already done begin to tansfer it into these folders that you created above to your git on your local machine.
+    Kubernetes and containerization
 
-   
+    Networking and security fundamentals
 
+    Scripting (Bash, Python)
 
+    Infrastructure‑as‑Code
 
-<br>
+    CI/CD workflows
 
+    Logging, monitoring, and troubleshooting
 
+This repository is structured to support these topics while maintaining clean version control practices.
+📄 Contribution Notes
 
+This repository is used for coursework and grading.
+Only the student and authorized instructors should modify its contents.
 
+If updates or corrections are needed:
 
+    Use clear commit messages
 
+    Maintain folder structure
 
+    Avoid committing temporary files, logs, or system artifacts
 
+A .gitignore is included to enforce clean repository hygiene.
+📌 Final Notes
 
-
+This repository is designed to reflect professionalism, clarity, and technical discipline.
+It serves both as a homework submission system and as a long‑term reference for future study and practice.
