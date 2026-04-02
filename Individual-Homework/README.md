@@ -22,7 +22,7 @@ The Individual Homework section is intended to:
 ## Structure and Organization
 
 Each assignment is stored in its own subfolder:
-
+```
 Individual-Homework/
 ├── 01-week-01/
 │   └── README.md
@@ -30,7 +30,7 @@ Individual-Homework/
 │   └── README.md
 └── 03-week-03/
 └── README.md
-Code
+```
 
 
 Each assignment folder includes:

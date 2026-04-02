@@ -38,12 +38,12 @@ Where applicable, teams should also include:
 ## Directory Layout
 
 Each assignment should be placed in its own subfolder:
-
+```
 Group-Homework/
 ├── 01-assignment-name/
 ├── 02-assignment-name/
 └── ...
-Code
+```
 
 
 Each subfolder should contain:

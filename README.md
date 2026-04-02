@@ -18,7 +18,7 @@ This project is intended to:
     Reinforce reproducibility, clarity, and professional documentation practices
 
 📂 Repository Layout
-Code
+```
 
 .
 ├── README.md                # Top-level overview (this file)
@@ -31,7 +31,7 @@ Code
     └── README.md
 
 Individual-Homework/
-
+```
 Contains weekly assignments completed independently.
 Each subfolder includes a README.md describing the task, methodology, and results.
 Group-Homework/
