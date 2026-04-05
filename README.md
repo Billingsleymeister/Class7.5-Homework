@@ -1,16 +1,42 @@
+<div align="center">
 
-[![GCP](https://img.shields.io/badge/GCP-Minimal?style=flat-square&logo=google-cloud&color=4285F4)](https://cloud.google.com/)
-[![Terraform](https://img.shields.io/badge/Terraform-Minimal?style=flat-square&logo=terraform&color=7B42BC)](https://www.terraform.io/)
-[![Status](https://img.shields.io/badge/Status-Active-Minimal?style=flat-square&color=2ea44f)](#)
+[![GCP](https://img.shields.io/badge/Google_Cloud-%238aadf4.svg?style=for-the-badge&logo=google-cloud&logoColor=24273a)](https://cloud.google.com/)
+[![Terraform](https://img.shields.io/badge/Terraform-%23c6a0f6.svg?style=for-the-badge&logo=terraform&logoColor=24273a)](https://www.terraform.io/)
+[![Status](https://img.shields.io/badge/Status-Active_Maintenance-%23a6da95.svg?style=for-the-badge&logoColor=24273a)](#)
 
-# 7.5 GCP & IaC Runbooks
+# GCP Operations & IaC Runbooks
 
-**Group Leader #1:** [M-Bash](https://github.com/M-Bash) | Cohort 7.5
+**Group Leader #1:** [M-Bash](https://github.com/M-Bash) | Cohort 7.5<br>
+**Group Leader #2:** [Brimah](https://github.com/Brimah-Khalil-Kamara) | Cohort 7.5<br>
+
+*Infrastructure-as-Code (IaC) deployments and grading validations for GCP. Tracks the transition from imperative provisioning to declarative state management.*
+
+</div>
+
 <br>
 
-**Group Leader #2:** [Brimah](https://github.com/Brimah-Khalil-Kamara) | Cohort 7.5
+## 🏛️ Infrastructure Architecture (Wk 2)
 
-Infrastructure-as-Code (IaC) deployments and grading validations for GCP. Tracks the transition from imperative provisioning to declarative state management.
+```mermaid
+graph TD;
+    Client([Client Browser]) -->|HTTP :80| FW[GCP Firewall Rule];
+    FW --> VM[Iowa Compute Instance];
+    
+    subgraph GCP us-central1-a
+        VM --> Nginx[Nginx Web Server];
+        Nginx --> HZ[/healthz endpoint/];
+        Nginx --> MD[/metadata endpoint/];
+    end
+    
+    TF[(Terraform State)] -.->|Deploys & Manages| VM;
+    TF -.->|Deploys & Manages| FW;
+    
+    style Client fill:#24273a,stroke:#8aadf4,stroke-width:2px,color:#cad3f5
+    style FW fill:#24273a,stroke:#f5a97f,stroke-width:2px,color:#cad3f5
+    style VM fill:#24273a,stroke:#c6a0f6,stroke-width:2px,color:#cad3f5
+    style Nginx fill:#24273a,stroke:#a6da95,stroke-width:2px,color:#cad3f5
+    style TF fill:#24273a,stroke:#c6a0f6,stroke-width:2px,color:#cad3f5,stroke-dasharray: 5 5
+```
 
 ---
 
