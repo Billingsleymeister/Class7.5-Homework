@@ -1,119 +1,87 @@
-# Class7.5-Homework
 
-Class 7.5 2026 Homework Submissions Repo for THEO WAF 
+```markdown
+[![GCP](https://img.shields.io/badge/GCP-Minimal?style=flat-square&logo=google-cloud&color=4285F4)](https://cloud.google.com/)
+[![Terraform](https://img.shields.io/badge/Terraform-Minimal?style=flat-square&logo=terraform&color=7B42BC)](https://www.terraform.io/)
+[![Status](https://img.shields.io/badge/Status-Active-Minimal?style=flat-square&color=2ea44f)](#)
 
-<h1 align="center">AWS CLASS 7.5 HOMEWORK</h1>
+# GCP Operations & IaC Runbooks
 
+**Group Leader #1:** [M-Bash](https://github.com/M-Bash) | Cohort 7.5
+**Group Leader #2:** [Brimah](https://github.com/Brimah-Khalil-Kamara) | Cohort 7.5
 
-**Group Leader #1:** 
-<br>
-<a href="https://github.com/BashiM1">Mahamed Bashir</a>
+Infrastructure-as-Code (IaC) deployments and grading validations for GCP. Tracks the transition from imperative provisioning to declarative state management.
 
-<br>
+---
 
-**Group Leader #2:** 
-<br>
-<a href="https://github.com/Brimah-Khalil-Kamara">Brimah Khalil Kamara</a>
+### Wk 1: Ephemeral Compute & Health Routing
+Provisioning a GCP Compute Engine instance serving Nginx, configured with `/healthz` and `/metadata` endpoints for load-balancer validation.
 
-<br>
-
-
-
-**Group Members:**
-
+<details>
+<summary><b>Execution & Gate Validation</b></summary>
 <br>
 
-**1:** <a href="https://github.com/waseeconsulting-git">Van Ngila</a> 
+**1. Provision**
+```bash
+gcloud init
+```
 
-**2:** <a href="https://github.com/anthonyadeconsulting-source">Adedji Adeyemi</a> 
+**2. Local Verification**
+```bash
+curl -s localhost/healthz
+curl -s localhost/metadata | jq .
+```
 
-**3:** <a href="https://github.com/DBs-art">Daniel Bryce</a> 
+**3. Remote Gate Validation**
+Executes the SEIR-I grading script against the deployed public IP.
+```bash
+export VM_IP="<EXTERNAL_IP>"
+./scripts/gate_gcp_vm_http_ok.sh
+```
 
-**4:** <a href="https://https://github.com/statuc30721">ST Tucker</a> 
+**Output:**
+```json
+{
+    "lab": "SEIR-I Lab 1",
+    "status": "PASS",
+    "details":[
+        "PASS: Homepage reachable (HTTP 200)",
+        "PASS: /healthz endpoint returned 'ok'",
+        "PASS: /metadata returned valid JSON"
+    ]
+}
+```
+</details>
 
-**5:** <a href="https://github.com/thomas065">Thomas Bell</a> 
+---
 
-**6:** <a href="https://github.com/theswordpt-git">Voloxar Karsze</a> 
+### Wk 2: GCP + Terraform
+Codifying the Wk 1 stack. Deploys an Iowa (`us-central1-a`) Compute instance, ingress firewall rules (tcp/80), and automated startup scripts.
 
-**7:** <a href="https://github.com/Lew228">Shawn Mosby</a> 
-
-**8:** <a href="https://github.com/Cameron-Cleveland">Cameron Cleveland</a> 
-
-**9:** <a href="https://github.com/BennyCampCloud">Campanella Godfrey Jr</a>
-
-**10:** <a href="https://github.com/LarvariousM">Larvarious McDonald</a>
-
-
+<details>
+<summary><b>Execution & Gate Validation</b></summary>
 <br>
 
-<h2 align="center">📌 Instructions</h2>
-
-<br>
-
-1. Pull or clone the Class7.5 Homework Repo on your gitbash terminal to your git on your local machine. You will only be allowed to pull once you have cloned the repo. 
-
-
+**1. State Execution**
 ```bash
-git clone https://github.com/Melanated-Cyber-Kings/Class7.5-Homework.git
+terraform init
+terraform validate
+terraform plan -out=tfplan
+terraform apply tfplan
 ```
 
+**2. Automated Gate Validation**
+Extracts the ephemeral IP directly from Terraform state to pass to the grading script.
 ```bash
-git pull origin "name of your branch goes here"
+export VM_IP=$(terraform output -raw vm_external_ip)
+./scripts/gate_lab2_http.sh
 ```
 
-
-2. Navigate to the cloned repo location in your gitbash terminal and create folders Week 1, Week 2, and so on. These are the folders that will have your homework in
-
-3. Create your branches and switch into it immediately. (I have created the names as I want you to create your branches)
-
+**3. Teardown**
 ```bash
-git checkout -b Van-Ngila-Homework-Branch-7.5
+terraform destroy -auto-approve
 ```
-```bash
-git checkout -b Adedji-Adeyemi-Homework-Branch-7.5
+</details>
+
+---
+*Note: All infrastructure in this repository is designed to be ephemeral. `terraform destroy` is enforced post-validation to maintain zero idle cloud spend.*
 ```
-```bash
-git checkout -b Daniel-Bryce-Homework-Branch-7.5
-```
-```bash
-git checkout -b ST-Tucker-Homework-Branch-7.5
-```
-```bash
-git checkout -b Thomas-Bell-Homework-Branch-7.5
-```
-```bash
-git checkout -b Voloxar-Karsze-Homework-Branch-7.5
-```
-```bash
-git checkout -b Shawn-Mosby-Homework-Branch-7.5
-```
-```bash
-git checkout -b Cameron-Cleveland-Homework-Branch-7.5
-```
-```bash
-git checkout -b Campanella-Godfrey-Jr-Homework-Branch-7.5
-```
-```bash
-git checkout -b Larvarious-McDonald-Homework-Branch-7.5
-```
-
-   
-5. Create Readme.md files in each folder you created above this will be the file that you will document your homework in and that will be presented to THEO, so make sure it's readable and that someone who wouldnt know how to do the homework/project can follow with little to no difficulty.
-
-6. Once you have done this any homework you have already done begin to tansfer it into these folders that you created above to your git on your local machine.
-
-   
-
-
-
-<br>
-
-
-
-
-
-
-
-
-
-
