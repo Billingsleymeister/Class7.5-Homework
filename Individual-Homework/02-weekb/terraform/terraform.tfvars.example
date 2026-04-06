@@ -1,0 +1,11 @@
+# Example settings to use in-place of variables.tf file.
+
+# Replace the values below with your own settings. 
+# You can find these values in the Google Cloud Console.
+
+project_id   = "example-project-id"
+region       = "us-central1"
+zone         = "us-central1-a"
+student_name = "Example Student"
+vm_name      = "example-vm"
+prefix       = "mephisto-web"
