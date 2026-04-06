@@ -43,6 +43,12 @@ Class 7.5 2026 Homework Submissions Repo for THEO WAF
 
 **10:** <a href="https://github.com/LarvariousM">Larvarious McDonald</a>
 
+**11:** <a href="https://github.com/LarvariousM">Larvarious McDonald</a>
+
+**12:** <a href="https://github.com/Bobb-35">Bob Nyaande</a>
+
+
+
 
 <br>
 
