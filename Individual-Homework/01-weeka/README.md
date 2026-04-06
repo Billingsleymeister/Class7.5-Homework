@@ -100,10 +100,11 @@ Expected: valid JSON containing instance_name and region.
 ## SSH Verification (Required Screenshots)
 
 Open an SSH session from the GCP console and run:
-
+```
 curl localhost
 curl -s localhost | head
 systemctl status nginx --no-pager
+```
 
 Capture screenshots of all three outputs.
 
@@ -150,7 +151,7 @@ PASS: metadata contains region
 These must be committed to this repository.
 
 ## Repository Layout
-
+```
 01-weeka/
 ├── README.md
 │
@@ -166,7 +167,7 @@ These must be committed to this repository.
 │
 └── scripts/
     └── gate_gcp_vm_http_ok.sh
-
+```
 
 ## Engineering Philosophy
 
