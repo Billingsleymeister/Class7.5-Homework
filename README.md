@@ -99,6 +99,9 @@ git checkout -b Larvarious-McDonald-Homework-Branch-7.5
 ```bash
 git checkout -b Ernest-Obeng-Mensah-Homework-Branch-7.5
 ```
+```bash
+git checkout -b Bob-Nyaande-Homework-Branch-7.5
+```
    
 5. Create Readme.md files in each folder you created above this will be the file that you will document your homework in and that will be presented to THEO, so make sure it's readable and that someone who wouldnt know how to do the homework/project can follow with little to no difficulty.
 
