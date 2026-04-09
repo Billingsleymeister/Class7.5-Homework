@@ -47,7 +47,7 @@ Class 7.5 2026 Homework Submissions Repo for THEO WAF
 
 **12:** <a href="https://github.com/Bobb-35">Bob Nyaande</a>
 
-**13:** <a href="https://github.com/Bobb-35">William Gevao</a>
+**13:** <a href="https://github.com/williamgevao">William Gevao</a>
 
 **14:** <a href="https://github.com/Bobb-35">Man Escobar</a>
 
