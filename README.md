@@ -31,7 +31,7 @@ Class 7.5 2026 Homework Submissions Repo for THEO WAF
 
 **4:** <a href="https://https://github.com/statuc30721">ST Tucker</a> 
 
-**5:** <a href="https://github.com/thomas065">Thomas Bell</a> 
+**5:** <a href="https://github.com/ThomasBell-dev">Thomas Bell</a> 
 
 **6:** <a href="https://github.com/theswordpt-git">Voloxar Karsze</a> 
 
