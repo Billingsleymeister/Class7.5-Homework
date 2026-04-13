@@ -4,7 +4,7 @@ Execution artifacts and gate validation outputs. Click any image to expand.
 
 ---
 
-## Week 1: Ephemeral Compute & Routing
+## Week 1:
 
 ### 1. Instance Provisioning
 GCP Console with the running Compute instance.
