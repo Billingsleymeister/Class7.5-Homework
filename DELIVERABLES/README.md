@@ -34,7 +34,6 @@ Passing output from the `gate_gcp_vm_http_ok.sh` script.
 
 ## Week 2: 
 
-*[Pending execution]*
 
 <!-- 
 Template for Week 2:
