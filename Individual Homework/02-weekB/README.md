@@ -24,6 +24,7 @@
 - Copy it to Notepad — you'll need it repeatedly
 
 ![GCP Project ID](./screenshots/1_GCP%20Console_Project%20ID.png)
+
 ![Notepad Project ID](./Screenshots/2_Notepad_Project%20ID.png)
 
 **Why:** The provider block needs your specific project ID. Using the wrong project means Terraform operates in the wrong place.
@@ -74,6 +75,7 @@ gcloud auth application-default login
 3. Grant permissions
 4. Credentials stored locally for Terraform
 ![gcloud auth login](./Screenshots/6_gcloud%20auth%20application-default%20login.png)
+
 ![gcloud authenticated](./Screenshots/7_gcloud%20authenticated.png)
 **Why this method:**
 | JSON Key Method | ADC Method |
@@ -95,6 +97,7 @@ Theo created a new folder `terraform2`
 - Create new folder: `terraform2`
 - Right-click inside folder → **Open Git Bash here** (Windows) or **Open Terminal** (Mac)
 ![New Terraform Folder](./Screenshots/8_New%20Terraform%20Folder.png)
+
 ### Step 2: Open VS Code from Terminal
 
 ```bash
@@ -409,4 +412,4 @@ pwd                                           # Show current directory
 
 ---
 
-==**Final note:** Theo's step-by-step methodology — one file at a time, test after each addition — is the key takeaway. This prevents the "spaghetti Terraform" problem where you have 10 resources and no idea which one failed. Start small, validate, then expand. The VPC creation at the end showed how quickly infrastructure can be deployed once the foundation is correct.==
+**Final note:** Theo's step-by-step methodology — one file at a time, test after each addition — is the key takeaway. This prevents the "spaghetti Terraform" problem where you have 10 resources and no idea which one failed. Start small, validate, then expand. The VPC creation at the end showed how quickly infrastructure can be deployed once the foundation is correct.
