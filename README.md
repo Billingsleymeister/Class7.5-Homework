@@ -48,6 +48,8 @@ In this diagram, I've created three VM instances. One has no external IP address
 
 **LAB: Network Firewalls in GCP**
 
+
+
 **LAB: VPC Network in GCP**
 
 **LAB: Cloud VPN & VPN Tunnels**
