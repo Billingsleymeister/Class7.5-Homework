@@ -105,13 +105,21 @@ Fill out the following fields:
 3. Update configuration:
    - Convert an **Ephemeral IP** → **Static IP**
 <img width="1350" height="355" alt="image" src="https://github.com/user-attachments/assets/3173e886-54b6-4994-99f0-402d232aae6d" />
+
 <img width="1471" height="412" alt="image" src="https://github.com/user-attachments/assets/4ac8424f-25f9-4c25-9e76-722b7158480b" />
-<img width="403" height="377" alt="image" src="https://github.com/user-attachments/assets/982707f5-fa17-4b4c-80d3-9381c436c120" />
-<img width="1292" height="437" alt="image" src="https://github.com/user-attachments/assets/e1ad0f00-a2f0-43f6-af54-d816b1e1625a" />
-<img width="596" height="306" alt="image" src="https://github.com/user-attachments/assets/e9f4b955-d78b-440b-b09f-f0523910e483" />
-<img width="427" height="68" alt="image" src="https://github.com/user-attachments/assets/e6c3944a-5712-449a-ba76-a3f01c4ab508" />
-<img width="482" height="362" alt="image" src="https://github.com/user-attachments/assets/a51a07a3-60d9-4268-a0d9-0008cdd1171a" />
-<img width="1193" height="580" alt="image" src="https://github.com/user-attachments/assets/11ad13c4-3fc5-4959-89a7-7f6a92db2c6b" />
+
+<img width="403" height="377" alt="image" src="https://github.com/user-attachments/assets/982707f5-fa17-4b4c-80d3-9381c436c120" />  
+
+<img width="1292" height="437" alt="image" src="https://github.com/user-attachments/assets/e1ad0f00-a2f0-43f6-af54-d816b1e1625a" />  
+
+<img width="596" height="306" alt="image" src="https://github.com/user-attachments/assets/e9f4b955-d78b-440b-b09f-f0523910e483" />  
+
+<img width="427" height="68" alt="image" src="https://github.com/user-attachments/assets/e6c3944a-5712-449a-ba76-a3f01c4ab508" />  
+
+<img width="482" height="362" alt="image" src="https://github.com/user-attachments/assets/a51a07a3-60d9-4268-a0d9-0008cdd1171a" /> 
+
+<img width="1193" height="580" alt="image" src="https://github.com/user-attachments/assets/11ad13c4-3fc5-4959-89a7-7f6a92db2c6b" />  
+
 
 
 ---
