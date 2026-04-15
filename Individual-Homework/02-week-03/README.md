@@ -183,7 +183,7 @@ Save a screenshot of the passing gate result as:
 Repository Layout
 ```text
 
-01-weekb/
+02-weekb/
 ├── README.md
 │
 ├── terraform/
