@@ -139,6 +139,132 @@ Fill out the following fields:
 - Reserve static IPs **before** production deployment
 - Avoid unnecessary global IP usage unless required
 
+---
+---
+
+# 🧪 Lab 73: Network Firewalls in GCP
+
+## 📌 Objective
+This lab demonstrates how to implement and manage firewall rules within Google Cloud Platform (GCP).
+
+> ⚠️ *Ensure you are already working within your intended GCP project.*
+
+---
+
+## 🚀 Step 1: Create a VPC
+
+1. Navigate to:
+
+add SS
 
 
+---
 
+2. Click **Create VPC Network**
+
+3. Configure:
+- **Name**: `name-demo`
+
+---
+
+## 🌐 Step 2: Create Subnets
+
+Create three subnets with the following configurations:
+
+| Subnet Name       | IP Range   |
+|------------------|-----------|
+| name-webserver   | 10.0.0.1  |
+| name-db          | 10.0.1.1  |
+| name-service     | 10.0.2.1  |
+
+> 📌 Ensure naming conventions are consistent across all resources.
+
+---
+
+## 🔥 Step 3: Create Firewall Rule (Allow)
+
+1. Navigate to:
+
+   
+add SS
+
+---
+
+2. Click **Create Firewall Rule**
+
+3. Configure:
+
+- **Network**: `name-demo`
+- **Priority**: `1000`
+- **Direction of Traffic**: Ingress
+- **Action on Match**: Allow
+- **Targets (Tags)**: `db`, `webserver`, `services`
+- **Source IP Ranges**: `0.0.0.0/0`
+
+### Allowed Protocols:
+- **TCP**: `22` (SSH)
+- **Other Protocols**: `ICMP`
+
+---
+
+## 🖥️ Step 4: Create VM Instances
+
+Create three VM instances using the following naming convention:
+
+- `name-instance-webserver`
+- `name-instance-db`
+- `name-instance-service`
+
+### Network Interface Configuration:
+
+- **Network**: `name-demo`
+- **Subnetwork**:
+  - Match subnet naming
+  - Example:
+    - `name-db` → `name-instance-db`
+
+---
+
+## 🏷️ Step 4.5: Assign Network Tags
+
+1. Go to each VM instance
+2. Edit settings
+3. Add corresponding **network tags**:
+
+- `webserver`
+- `db`
+- `services`
+
+> 📌 These tags link firewall rules to the correct instances.
+
+---
+
+## 🔄 Step 5: Test Connectivity
+
+1. SSH into each VM
+2. Test connectivity using ping:
+
+```bash
+ping name-instance-webserver```
+
+## 🚫 Step 6: Create Firewall Rule (Deny)
+
+1. Navigate to:
+
+
+2. Click **Create Firewall Rule**
+
+3. Configure the following:
+
+- **Name**: `name-demo-deny`
+- **Network**: `name-demo`
+- **Priority**: `900` *(higher priority than allow rule)*
+- **Direction of Traffic**: Ingress
+- **Action on Match**: Deny
+- **Targets**: Specified target tags
+- **Tag**: `db`
+- **Source IP Ranges**: `0.0.0.0/0`
+
+### ❌ Denied Protocols
+
+- **Other Protocols**: `ICMP`
