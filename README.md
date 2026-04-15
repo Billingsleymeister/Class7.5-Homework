@@ -48,6 +48,9 @@ In this diagram, I've created three VM instances. One has no external IP address
 
 **LAB: Network Firewalls in GCP**
 
+I created a VPC named "demo-vpc", with three subents in us-central1(Iowa).
+
+<img width="600" height="600" alt="03-vpcnetworkwithsubnets" src="https://github.com/user-attachments/assets/57af38ae-a8c1-4280-b047-168a70a746a6" />
 
 
 **LAB: VPC Network in GCP**
