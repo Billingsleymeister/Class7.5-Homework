@@ -133,14 +133,16 @@ N/A - Theo gave us time off (Birthday week & Illinois in NCAA Final Four) 🥳�
 ## Reading, Videos, and Labs
 
 **GCP**:
-Professional Cloud Architect Prep Book (megafile) == Chapters 1-4 & Chapter 8\
+Professional Cloud Architect Prep Book (megafile) == Chapters 1-4 & Chapter 8
 GCP Terraform Book (megafile) = Chapters 1 & 2\
-GCP Masterclass (Udemy) == Videos & Labs #19 - 43 (sections 5 & 6)\
+GCP Masterclass (Udemy) == Videos & Labs #19 - 43 (sections 5 & 6)
 
 
 **Linux**:
 Linux Command Line (megafile) == chapters 1-4
 Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
+
+
 
 **Git**:
 Learning Git (megafile) == Chapters 1-3
