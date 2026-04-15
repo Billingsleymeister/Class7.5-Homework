@@ -5,7 +5,7 @@ Learn how to reserve and manage static IP addresses (regional and global) in Goo
 
 ---
 
-## 🚀 Step 1: Navigate to External IP Reservation
+## Step 1: Navigate to External IP Reservation
 
 1. Open your **GCP Console**
 2. Select a **project** (⚠️ *avoid using the default project*)
@@ -35,7 +35,7 @@ Fill out the following fields:
 
 ---
 
-## 🔍 Step 2.5: Verify IP Creation
+## Step 2.5: Verify IP Creation
 
 - Confirm that your **static IP address** appears in the list
 - Ensure it is marked as **Reserved**
@@ -44,7 +44,7 @@ Fill out the following fields:
 
 ---
 
-## 🌍 Step 3: Reserve a Global Static IP
+## Step 3: Reserve a Global Static IP
 
 1. Click **Reserve External IP Address** again
 2. Configure:
@@ -58,7 +58,7 @@ Fill out the following fields:
 
 ---
 
-## 🔍 Step 3.5: Observe Global IP Behavior
+## Step 3.5: Observe Global IP Behavior
 
 - Notice the **Global IP**:
   - Does **not** have a region assigned
@@ -95,7 +95,7 @@ Fill out the following fields:
 
 ---
 
-## 🔄 Step 5: Review & Modify IP Assignment
+## Step 5: Review & Modify IP Assignment
 
 1. Open your newly created VM
 2. Review:
@@ -116,7 +116,7 @@ Fill out the following fields:
 
 ---
 
-## 🧠 Key Takeaways
+## Key Takeaways
 
 - **Regional IPs** are tied to a specific region
 - **Global IPs** are region-independent
@@ -125,7 +125,7 @@ Fill out the following fields:
 
 ---
 
-## 🛠️ Pro Tips
+## Pro Tips
 
 - Always use a **consistent naming convention** (e.g., `env-service-type`)
 - Reserve static IPs **before** production deployment
