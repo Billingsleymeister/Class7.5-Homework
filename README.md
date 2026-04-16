@@ -1,4 +1,4 @@
-<img width="2880" height="1650" alt="lesson1quiz3" src="https://github.com/user-attachments/assets/bf51e820-e7e4-44a7-bd8a-1e4952664edf" /># Class7.5 SIER-Homework
+# Class7.5 SIER-Homework
 
 **Weekly Directory**
 
