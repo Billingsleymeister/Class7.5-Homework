@@ -253,16 +253,21 @@ Create three VM instances using the following naming convention:
 2. Test connectivity using ping:
 
 
-ping name-instance-webserver```
+ping name-instance-db```  
+
+<img width="478" height="152" alt="image" src="https://github.com/user-attachments/assets/13c327bd-ed8f-4a7a-8c80-ee3536c6057f" />  
+<img width="1093" height="328" alt="image" src="https://github.com/user-attachments/assets/56fef705-5b0f-412a-a923-16eb8d3211d8" />
+
+
 
 ## 🚫 Step 6: Create Firewall Rule (Deny)
 
 1. Navigate to:
+<img width="810" height="308" alt="image" src="https://github.com/user-attachments/assets/bd2a5242-08fa-4982-b200-e6565e6a9747" />
 
+3. Click **Create Firewall Rule**
 
-2. Click **Create Firewall Rule**
-
-3. Configure the following:
+3.5. Configure the following:
 
 - **Name**: `name-demo-deny`
 - **Network**: `name-demo`
@@ -276,3 +281,10 @@ ping name-instance-webserver```
 ### ❌ Denied Protocols
 
 - **Other Protocols**: `ICMP`
+<img width="872" height="150" alt="image" src="https://github.com/user-attachments/assets/f5f1a9f2-e07e-493e-838d-1d8aad6ede37" />
+
+ERROR CONNECTING  
+<img width="1102" height="281" alt="image" src="https://github.com/user-attachments/assets/b1f4750b-95cd-406b-8365-28a29b3194cb" />
+
+
+
