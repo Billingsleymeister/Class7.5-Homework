@@ -283,8 +283,10 @@ ping name-instance-db```
 - **Other Protocols**: `ICMP`
 <img width="872" height="150" alt="image" src="https://github.com/user-attachments/assets/f5f1a9f2-e07e-493e-838d-1d8aad6ede37" />
 
-ERROR CONNECTING  
-<img width="1102" height="281" alt="image" src="https://github.com/user-attachments/assets/b1f4750b-95cd-406b-8365-28a29b3194cb" />
+ERROR CONNECTING    
+<img width="1062" height="753" alt="image" src="https://github.com/user-attachments/assets/8955f48d-283d-42cd-b6f5-4764613e302e" />
+
+
 
 
 
