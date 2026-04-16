@@ -47,6 +47,9 @@ Class 7.5 2026 Homework Submissions Repo for THEO WAF
 
 **12:** <a href="https://github.com/carlosvillette">Man Escobar</a>
 
+**13:** <a href="https://github.com/carlosvillette">Michael Anunda</a>
+
+
 
 <br>
 
@@ -80,12 +83,6 @@ git pull origin "name of your branch goes here"
 git checkout -b Van-Ngila-Homework-Branch-7.5
 ```
 ```bash
-git checkout -b Adedji-Adeyemi-Homework-Branch-7.5
-```
-```bash
-git checkout -b Daniel-Bryce-Homework-Branch-7.5
-```
-```bash
 git checkout -b ST-Tucker-Homework-Branch-7.5
 ```
 ```bash
@@ -117,6 +114,9 @@ git checkout -b William-Gevao-Homework-Branch-7.5
 ```
 ```bash
 git checkout -b Man-Escobar-Homework-Branch-7.5
+```
+```bash
+git checkout -b Michael-Anunda-Homework-Branch-7.5
 ```
 
 <br>
