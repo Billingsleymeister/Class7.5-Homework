@@ -244,7 +244,7 @@ Create three VM instances using the following naming convention:
 1. SSH into each VM
 2. Test connectivity using ping:
 
-```bash
+
 ping name-instance-webserver```
 
 ## 🚫 Step 6: Create Firewall Rule (Deny)
