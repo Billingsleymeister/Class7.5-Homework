@@ -25,31 +25,27 @@ Class 7.5 2026 Homework Submissions Repo for THEO WAF
 
 **1:** <a href="https://github.com/waseeconsulting-git">Van Ngila</a> 
 
-**2:** <a href="https://github.com/anthonyadeconsulting-source">Adedji Adeyemi</a> 
+**2:** <a href="https://https://github.com/statuc30721">ST Tucker</a> 
 
-**3:** <a href="https://github.com/DBs-art">Daniel Bryce</a> 
+**3:** <a href="https://github.com/ThomasBell-dev">Thomas Bell</a> 
 
-**4:** <a href="https://https://github.com/statuc30721">ST Tucker</a> 
+**4:** <a href="https://github.com/theswordpt-git">Voloxar Karsze</a> 
 
-**5:** <a href="https://github.com/ThomasBell-dev">Thomas Bell</a> 
+**5:** <a href="https://github.com/Lew228">Shawn Mosby</a> 
 
-**6:** <a href="https://github.com/theswordpt-git">Voloxar Karsze</a> 
+**6:** <a href="https://github.com/Cameron-Cleveland">Cameron Cleveland</a> 
 
-**7:** <a href="https://github.com/Lew228">Shawn Mosby</a> 
+**7:** <a href="https://github.com/BennyCampCloud">Campanella Godfrey Jr</a>
 
-**8:** <a href="https://github.com/Cameron-Cleveland">Cameron Cleveland</a> 
+**8:** <a href="https://github.com/LarvariousM">Larvarious McDonald</a>
 
-**9:** <a href="https://github.com/BennyCampCloud">Campanella Godfrey Jr</a>
+**9:** <a href="https://github.com/ernestobengmensah">Ernest Obeng Mensah</a>
 
-**10:** <a href="https://github.com/LarvariousM">Larvarious McDonald</a>
+**10:** <a href="https://github.com/Bobb-35">Bob Nyaande</a>
 
-**11:** <a href="https://github.com/ernestobengmensah">Ernest Obeng Mensah</a>
+**11:** <a href="https://github.com/williamgevao">William Gevao</a>
 
-**12:** <a href="https://github.com/Bobb-35">Bob Nyaande</a>
-
-**13:** <a href="https://github.com/williamgevao">William Gevao</a>
-
-**14:** <a href="https://github.com/carlosvillette">Man Escobar</a>
+**12:** <a href="https://github.com/carlosvillette">Man Escobar</a>
 
 
 <br>
