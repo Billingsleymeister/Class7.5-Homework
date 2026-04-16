@@ -1,4 +1,4 @@
-<img width="2880" height="1650" alt="03-lesson3-navigatingtorootdirectory" src="https://github.com/user-attachments/assets/7e6f75d2-2cfc-4eac-8b02-d52c42c563ed" /># Class7.5 SIER-Homework
+
 
 **Weekly Directory**
 
