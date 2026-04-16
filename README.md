@@ -1,4 +1,4 @@
-# Class7.5 SIER Homework
+# Class7.5 SIER Homework by Larvarious C. McDonald aka Loki Stormbringer
 
 **Weekly Directory**
 
@@ -273,37 +273,57 @@ Linux Fundamentals (killercoda.com) == Lessons 1-8 ✅
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **Git**:
 Learning Git (megafile) == Chapters 1-3
 Git Fundamentals (killercoda.com) = Lessons 1-4 ✅
+
+### Lesson 1
+
+<img width="600" height="600" alt="01-lesson1-checkpackages" src="https://github.com/user-attachments/assets/58676692-3c4d-4cfb-a0e9-16fe9a07bdf8" />
+
+<img width="600" height="600" alt="01-lesson1-installgit" src="https://github.com/user-attachments/assets/9dc52498-6b1f-4a43-9fe6-a6e37cad095b" />
+
+<img width="600" height="600" alt="01-lesson1-isgitinstalled" src="https://github.com/user-attachments/assets/aadddc74-a06f-43c3-8fdd-21f236c589aa" />
+
+### Lesson 2
+
+<img width="600" height="600" alt="01-lesson2-configuregit" src="https://github.com/user-attachments/assets/1f0f6452-3775-43a5-882e-179b1ddd2594" />
+
+<img width="600" height="600" alt="01-lesson2-gitdirectorystructure" src="https://github.com/user-attachments/assets/2f13e5c0-bff9-4b49-a19e-2f34ffa3eb45" />
+
+<img width="600" height="600" alt="01-lesson2-gitconfigexamples" src="https://github.com/user-attachments/assets/6cb1b5be-f73d-452b-b8e9-af3726370766" />
+
+### Lesson 3
+
+<img width="600" height="600" alt="01-lesson3-initializerepo" src="https://github.com/user-attachments/assets/f7f169cd-4abd-4055-95e1-ac58a7d8a913" />
+
+<img width="600" height="600" alt="01-lesson3-repostatus" src="https://github.com/user-attachments/assets/75fadf5e-5b76-4910-a5aa-16460b00c1e5" />
+
+<img width="600" height="600" alt="01-lesson3-addfiles" src="https://github.com/user-attachments/assets/fe83e3ed-f079-4cbe-9f1b-5bbd99c4d42c" />
+
+<img width="600" height="600" alt="01-lesson3-commitfiles" src="https://github.com/user-attachments/assets/a263308e-4eef-4597-a524-99502b5fffa7" />
+
+<img width="600" height="600" alt="01-lesson3-addandcommitmultiplefiles" src="https://github.com/user-attachments/assets/ea47fb22-44ae-4423-a64e-463840364955" />
+
+### Lesson 4
+
+<img width="600" height="600" alt="01-lesson4-removefilesfromstage" src="https://github.com/user-attachments/assets/913fc4f3-c58b-4a9a-b8cc-a661fa288aee" />
+
+<img width="600" height="600" alt="01-lesson4-previousstate" src="https://github.com/user-attachments/assets/229738b1-867d-4727-b17c-f8cd8501ced5" />
+
+<img width="600" height="600" alt="01-lesson4-removefilefromcommit" src="https://github.com/user-attachments/assets/bfdff8e6-ecfb-4628-82ba-65c3c9b7f753" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### "Class Practice"
