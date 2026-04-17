@@ -1,6 +1,15 @@
 # GCP Terraform Lab Exercise 1: Authentication, Backend  and VPC Setup
 
-This document outlines the steps to authenticate Terraform with Google Cloud Platform (GCP) and set up a backend for storing Terraform state files.
+This document outlines the steps to authenticate Terraform with Google Cloud Platform (GCP) and set up a backend for storing Terraform state files. This reposistory is for academic purposes only and is not intended for production use. The steps provided here are meant to guide you through the process of configuring Terraform to work with GCP, including creating a GCS bucket for state storage and deploying a VPC network.
+
+# Deliverables
+Terraform screenshots for each step of the process, including the terraform init, validate, plan, and apply commands, as well as the output confirming the creation of resources in GCP. These files are in the graphics directory of the project. They also are included in the README.md file for reference.
+
+Commmand outputs for each step of the process, which are included in the README.md file for reference. The terraform configuration files used for authentication, backend setup, and VPC creation are included in the project directory. The terraform.tfvars file is included as an example file (terraform.tfvars.example) for users to copy and update with their own variable values.
+
+Screenshots of the GCP Console showing the created resources, such as the GCS bucket and VPC network, are included in the graphics directory of the project and referenced in the README.md file.
+
+Screenshot of "Date, Hostname and Username in the terminal" is included in the graphics directory of the project and referenced in the README.md file to confirm the environment in which the commands were executed.
 
 ## Prerequisites
 
@@ -212,6 +221,9 @@ terraform destroy
 ![terraform-destroy](./graphics/step5-terraform-destroy-complete.png)
 
 This concludes the steps required to start developing a terraform code for GCP. You can continue to create additional terraform configuration files to build out your infrastructure further, such as creating subnets, firewall rules, and compute instances within the VPC network.
+
+
+
 
 References:
 - Terraform GCP Provider Documentation: https://registry.terraform.io/providers/hashicorp/google/latest/docs
