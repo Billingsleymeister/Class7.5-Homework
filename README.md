@@ -336,28 +336,46 @@ Re-run the in-class lab from Friday and Saturday’s recordings, taking screensh
 
 Screenshots:
 
-**Terraform init**
+`terraform init`
+
+<img width="600" height="600" alt="01terraforminit" src="https://github.com/user-attachments/assets/167faa29-99f8-4f46-98a8-aeaee3fbfdf9" />
 
 
 
-**Terraform validate**
+`terraform validate`
+
+<img width="600" height="600" alt="02terraformvalidate" src="https://github.com/user-attachments/assets/5b41affe-f767-4cf1-a5dc-3e99006e3d88" />
 
 
+`terraform plan`
 
-**Terraform plan**
-
-
-
-**Terraform apply**
+<img width="600" height="600" alt="03terraformplan" src="https://github.com/user-attachments/assets/547406ba-5284-4566-8cbe-82b7130a1427" />
 
 
+`terraform apply`
 
-**Terraform destroy**
+<img width="600" height="600" alt="04terraformapplyyes" src="https://github.com/user-attachments/assets/83e33556-62ae-40b8-805a-2b155c85f4a2" />
+
+**SUCCESS**<br/>
+
+<img width="600" height="600" alt="05terraformapplysuccess" src="https://github.com/user-attachments/assets/f51e1779-f88d-4177-836c-3ba24152224b" />
+
+**Created Resources in Google Cloud Platform**<br/>
+
+<img width="600" height="600" alt="06gcpcreatedresources" src="https://github.com/user-attachments/assets/d69e95b8-ba4a-4c0f-9880-dc1251ed59a0" />
+
+`Terraform destroy`
+
+<img width="600" height="600" alt="07terraformdestroy" src="https://github.com/user-attachments/assets/255c135f-6ad8-4bf0-8931-63acd2a78550" />
+
+**Deleted Resources in Google Cloud Platform**<br/>
+
+<img width="600" height="600" alt="08gcpdestroyedresources" src="https://github.com/user-attachments/assets/b3a61e5e-9134-4717-a958-a4d9c9ae737c" />
 
 
+`Date && hostename && whoami`
 
-**“Date && hostename && whoami”**
-
+<img width="600" height="600" alt="09extracommands" src="https://github.com/user-attachments/assets/ab904843-25b9-4af1-b737-6d3e594112f6" />
 
 
 
