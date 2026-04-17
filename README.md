@@ -1,4 +1,4 @@
-# Class7.5 SIER Homework by Larvarious C. McDonald aka Loki Stormbringer
+# Class7.5 Systems Engineering & Identity Responsibility (SEIR-I) Homework by Larvarious C. McDonald aka Loki Stormbringer
 
 **Weekly Directory**
 
