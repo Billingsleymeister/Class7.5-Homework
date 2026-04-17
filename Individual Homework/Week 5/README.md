@@ -6,8 +6,6 @@
 
 ## 1. Why [[Terraform]] Matters
 
-**Theo:** *"Terraform is the heart and soul of actual DevOps and automations for the cloud. This is where you get your job. This is where you get the money."*
-
 | Concept | Explanation |
 |---------|-------------|
 | **Infrastructure as Code (IaC)** | Define infrastructure in configuration files, not clicking in console |
@@ -43,6 +41,7 @@
 **Copy the bucket name** to your Notepad next to project ID.
 
 **Why:** This bucket will store your Terraform state file remotely (best practice).
+
 
 ### Step 3: Verify gcloud SDK is Configured
 
