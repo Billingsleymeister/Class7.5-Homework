@@ -145,6 +145,16 @@ GCP Masterclass (Udemy) == Videos & Labs #19 - 43 (sections 5 & 6)
 
 **Lab : Create Google Virtual Machine**
 
+I created a VM instance in GCP
+
+<img width="600" height="600" alt="01-createvminstance" src="https://github.com/user-attachments/assets/ef4ccfc0-1b0a-4ed6-ba9e-8dd296fd8890" />
+
+
+Then, I chekced the version of Python3 on the VM Instance, and installed GIT on there as well and verified the version.
+
+<img width="600" height="600" alt="02-installpackagesonvm" src="https://github.com/user-attachments/assets/559ba1ad-dde6-4994-8a0f-b2de1a3db975" />
+
+
 **Lab : Edit Running Compute Engine**
 
 **Lab : Create Custom Machine in GCP**
