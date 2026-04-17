@@ -141,6 +141,31 @@ Professional Cloud Architect Prep Book (megafile) == Chapters 1-4 & Chapter 8
 GCP Terraform Book (megafile) = Chapters 1 & 2\
 GCP Masterclass (Udemy) == Videos & Labs #19 - 43 (sections 5 & 6)
 
+### Section 5: Google Cloud Compute Engine (GCE)
+
+**Lab : Create Google Virtual Machine**
+
+**Lab : Edit Running Compute Engine**
+
+**Lab : Create Custom Machine in GCP**
+
+**Lab : Submit Startup Script | Execute Tomcat on Compute Engine**
+
+
+### Section 6: Disks on Google Compute Engine
+
+**Hands On : Disk I** 
+
+**Hands On : Disk II**
+
+**Hands On : Disk III**
+
+**Hands On : Disk IV**
+
+**Hands On : Snapshot**
+
+
+
 
 **Linux**:
 Linux Command Line (megafile) == chapters 1-4
